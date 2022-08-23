@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Blog from "./Blog";
 import categoryDate from "../data/Category";
 import authorData from "../data/Author";
+import blogs from "../data/Blog";
 import {
     clear,
     clearAuthor,
@@ -11,7 +12,7 @@ import {
 } from "../redux/filters/actions";
 
 function BlogList() {
-    const blogs = useSelector((state) => state.blogs);
+    // const blogs = useSelector((state) => state.blogs);
     const { category, author, search } = useSelector((state) => state.filters);
     const dispatch = useDispatch();
 
