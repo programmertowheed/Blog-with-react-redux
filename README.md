@@ -1,3 +1,7 @@
+# Blog react application with redux
+
+Live link: https://comfy-sherbet-be302e.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
